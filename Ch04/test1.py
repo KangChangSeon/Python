@@ -1,8 +1,9 @@
-def factorial(n):
-    if n<=1:
-        return 1
-    else:
-        return n * factorial(n-1)
+# def factorial(n):
+#     if n<=1:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
     
-n=5
-print("{}! = {}".format(n,factorial(n)))
+# n=5
+# print("{}! = {}".format(n,factorial(n)))
+
