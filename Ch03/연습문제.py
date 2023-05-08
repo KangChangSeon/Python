@@ -103,26 +103,26 @@
 
 
 # #3.18 187p
-# print('맛나 식당에 오신 것을 환영합니다. 메뉴는 다음과 같습니다')
-# print('1)햄버거')
-# print('2)치킨')
-# print('3)피자')
+print('맛나 식당에 오신 것을 환영합니다. 메뉴는 다음과 같습니다')
+print('1)햄버거')
+print('2)치킨')
+print('3)피자')
 
-# num=0
-# while num not in [1,2,3]:
-#     num=int(input('1에서 3까지의 메뉴를 선택하시오>'))
-#     print('잘못 입력하셨습니다.')
+num=0
+while num not in [1,2,3]:
+    num=int(input('1에서 3까지의 메뉴를 선택하시오>'))
+    print('잘못 입력하셨습니다.')
 
-# if num==1:
-#     print('햄버거를 선택하셨습니다.')
-# elif num==2:
-#     print('치킨을 선택하셨습니다.')
-# else:
-#     print('피자를 선택하셨습니다.')
+if num==1:
+    print('햄버거를 선택하셨습니다.')
+elif num==2:
+    print('치킨을 선택하셨습니다.')
+else:
+    print('피자를 선택하셨습니다.')
 
-# #3.24 189p
-# n = int(input('n을 입력하시오>'))
-# s=0
-# for i in range(1,n+1):
-#     s+=(1/i)**2
-# print(s)
+#3.24 189p
+n = int(input('n을 입력하시오>'))
+s=0
+for i in range(1,n+1):
+    s+=(1/i)**2
+print(s)
