@@ -148,6 +148,8 @@
 # print("최솟값 : {}".format(min))
 
 
+
+
 # src = (str(input('문자열을 입력하시오')))
 # tmp = src[0]
 
@@ -195,32 +197,196 @@
 #     print('output = {}'.format(result))
 #     print('output2 = {}'.format(result2))
 
-src = str(input('문자열을 입력하시오: '))
-tmp = src[0]
+# src = str(input('문자열을 입력하시오: '))
+# tmp = src[0]
 
-result = ''
-result2 = ''
-num = 0
+# result = ''
+# result2 = ''
+# num = 0
 
-if src.strip() == '':
-    output = ''
-    print('src = {}'.format(src))
-    print('output = {}'.format(output))
+# if src.strip() == '':
+#     output = ''
+#     print('src = {}'.format(src))
+#     print('output = {}'.format(output))
 
-else:
-    for i in src:
-        if i == tmp:
-            num += 1
-        elif i != tmp:
-            result += tmp + str(num)
-            tmp = i
-            num = 1
+# else:
+#     for i in src:
+#         if i == tmp:
+#             num += 1
+#         elif i != tmp:
+#             result += tmp + str(num)
+#             tmp = i
+#             num = 1
 
-    result += tmp + str(num)
+#     result += tmp + str(num)
 
-    for j in range(0, len(result), 2):
-        result2 += (result[j] * int(result[j+1]))
+#     for j in range(0, len(result), 2):
+    #     result2 += (result[j] * int(result[j+1]))
 
-    print('src = {}'.format(src))
-    print('output = {}'.format(result))
-    print('output2 = {}'.format(result2))
+    # print('src = {}'.format(src))
+    # print('output = {}'.format(result))
+    # print('output2 = {}'.format(result2))
+
+
+
+# capital = {'Korea' : 'Seoul', 'China' : 'Beijing', 'USA': 'Washington'}
+# print(capital['Korea'])
+# capital['Japan'] = 'Tokyo'
+# print(capital['Japan'])
+
+# del capital['Japan']
+# # print(capital['Japan']) #error
+
+
+# # print(capital.keys())
+# # print(capital.values())
+# # print(capital.items())
+
+# # print(capital.get('USA'))
+
+# for key in capital:
+#     print("{} : {}".format(key,capital[key]))
+
+
+# fruits = {'apple': 6000, 'melon' : 3000, 'banana':5000,'orange':4000}
+# print(fruits.keys())
+# print(fruits.values())
+# print(len(fruits))
+
+# a = (1,2,3)
+
+# print(a)
+# d,c,e = a
+# print(d,c,e)
+
+# d = c
+# print(d,c,e)
+
+
+# the_day = (1919,3,1)
+
+# year, month, day = the_day
+# print("{}년 {}월 {}일은 삼일절입니다.".format(year,month,day))
+
+# list1 = [10,20,30]
+# tuple1 = tuple(list1)
+
+# a,b,c, = tuple1
+# print(a,b,c)
+
+# t = (10,20,10,30,40)
+
+# print(t.index(10))
+
+# person = (2019001,'홍길동',179)
+
+# print(person)
+
+# person_l = list(person)
+
+# person_l[0] = 2020003
+
+
+# person = tuple(person_l)
+
+# print(person)
+
+
+# x = (int(input('x')))
+# y = (int(input('y')))
+
+# def square(x,y):
+#     x = x**2
+#     y = y**2
+#     return x,y
+# x_sq, y_sq = square(x,y)
+# print('{} 제곱 {}, {} 제곱 {}'.format(x,x_sq,y,y_sq))
+
+# print('hello'*3)
+# print(('hello',)*3)
+
+
+# menu = {'Americano':3000,'Ice Americano':3500,'Cappuccino':4000,'Cafe Latte':4500,'Espresso':3600}
+
+# for key in menu:
+#     print("{:13s} 가격 : {}".format(key, menu[key]))
+
+# choice = (str(input("위의 메뉴중 하나를 선택하세요 : ")))
+
+# if choice in menu.keys():
+#     print('{}는 {}원 입니다. 결제를 부탁드립니다.'.format(choice,menu.get(choice)))
+# else:
+#     print('미안합니다. {}는 메뉴에 없습니다.'.format(choice))
+
+# result = (100,121,120,130,140,120,122,123,190,125)
+
+
+
+# for i in range(len(result)):
+#     x = result[i]
+#     i+=1
+#     if x > result[i]:
+#         print("지난 {}일 동안 전일대비 매출이 감소한 날은 {}일입니다.".format(len(result),i+1))
+#         if i >= 9:
+#             break
+        
+# #6.15
+# n = (4,5,2,3,8,1,9,0)
+
+# print(n)
+
+# for i in range(len(n)):
+#     if i == 0:
+#         continue
+#     print(n[0:-i])
+
+
+# n = (1, 2, 5, 4, 3, 2, 9, 1, 4, 7, 8, 9, 9)
+
+# n_l = list(n)
+# result = list(n)
+# answer = []
+
+# print(n_l)
+
+# for i in range(len(n)):
+#     for j in range(len(result)):
+#         if n_l[i] == result[j]:
+#             answer.append(i)
+
+    
+# print(answer)
+
+# n = (1, 2, 5, 4, 3, 2, 9, 1, 4, 7, 8, 9, 9)
+
+# n_l = list(n)
+# result = list(n)
+# answer = []
+
+# print(n_l)
+
+# for i in range(len(n)):
+#     for j in range(i + 1, len(result)):
+#         if n_l[i] == result[j] and n_l[i] not in answer:
+#             answer.append(n_l[i])
+
+# print(answer)
+
+n = (1, 2, 5, 4, 3, 2, 9, 1, 4, 7, 8, 9, 9)
+
+n_l = list(n)
+result = list(n)
+answer = []
+
+print(n_l)
+
+for i in range(len(n)):
+    count = 0
+    for j in range(len(result)):
+        if n_l[i] == result[j]:
+            count += 1
+        if count > 1 and n_l[i] not in answer:
+            answer.append(n_l[i])
+            break
+
+print(answer)
