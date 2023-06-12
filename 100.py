@@ -372,21 +372,22 @@
 
 # print(answer)
 
-n = (1, 2, 5, 4, 3, 2, 9, 1, 4, 7, 8, 9, 9)
+# n = (1, 2, 5, 4, 3, 2, 9, 1, 4, 7, 8, 9, 9)
 
-n_l = list(n)
-result = list(n)
-answer = []
+# n_l = list(n)
+# result = list(n)
+# answer = []
 
-print(n_l)
+# print(n_l)
 
-for i in range(len(n)):
-    count = 0
-    for j in range(len(result)):
-        if n_l[i] == result[j]:
-            count += 1
-        if count > 1 and n_l[i] not in answer:
-            answer.append(n_l[i])
-            break
+# for i in range(len(n)):
+#     count = 0
+#     for j in range(len(result)):
+#         if n_l[i] == result[j]:
+#             count += 1
+#         if count > 1 and n_l[i] not in answer:
+#             answer.append(n_l[i])
+#             break
 
-print(answer)
+# print(answer)
+
