@@ -391,3 +391,121 @@
 
 # print(answer)
 
+
+# #5.3
+# list1 = [3,5,7]
+# list2 = [2,3,4,5,6]
+
+# for i in range(len(list1)):
+#     for j in range(len(list2)):
+#         print("{} * {} = {}".format(list1[i],list2[j],list1[i]*list2[j]))
+
+
+# #5.4
+# a = [2,3,4,5,6]
+# # rev_a = [6,5,4,3,2]
+# rev_a = a[::-1]
+# print(rev_a)
+
+
+# #5.8
+# n_list = [10,20,30,40,50]
+# result = 1
+# for i in n_list:
+#     result *= i
+    
+
+# print(result)
+
+
+# #5.9
+# n_list = [10,20,30,40,50,60]
+# max_num = n_list[0]
+
+# for i in n_list:
+#     if max_num < i:
+#         max_num = i
+#     else:
+#         continue
+
+# print(max_num)
+
+
+
+# #5.11 , 5.12
+
+
+# n = input("n을 입력하세요 : ")
+# n_list = list(map(int,input('{}개의 수를 입력하세요 :'.format(n)).split()))
+
+# print(sum(n_list))
+# print(sum(n_list)/len(n_list))
+# print(max(n_list))
+# print(min(n_list))
+
+
+
+# menu = {"Americano":3000,"Ice Americano":3500,"Cappuccino":4000,"Caffe Latte":4500,"Espresso":3600}
+
+# for key in menu:
+#     print("{:14s} 가격 : {:,}원".format(key,menu[key]))
+
+
+
+# tup1 = (100, 121, 120, 130, 140, 120, 122, 123, 190, 125)
+# n = 0
+# tmp  = 0
+
+# for i in tup1:
+#     if i < tmp:
+#         n+=1
+#         tmp = i
+#     else:
+#         tmp = i
+#         continue
+
+# print("지난 {}일 동안 전일 대비 매출이 감소한 날은 {}일 입니다.".format(len(tup1),n))
+
+
+# tup1 = (1,2,5,4,3,2,9,1,4,7,8,9,9)
+# result = set()
+# tmp = tup1[0]
+
+# for i in range(len(tup1)):
+#     if tup1.count(i) > 1 and i not in result:
+#         result.add(i)
+#     else:
+#         continue
+
+# print(result)
+
+# import datetime as dt
+# import time as t
+# import math as m
+
+# list1 = []
+# for i in range(0,181,10):
+#     list1.append(i)
+
+# def result(n):
+#     print("sin({:3d}) = {:6.3f}, cos({:3d}) = {:6.3f}, tan({:3d}) = {:6.3f}".format(n,m.sin(m.radians(n))\
+#                                                                                     ,n,m.cos(m.radians(n))\
+#                                                                                         ,n,m.tan(m.radians(n))))
+# for i in list1:
+#     result(i)
+
+# f = open("hello.txt",'a+t')
+# f.write("Welcome to Python!\n")
+# f.close()
+
+# r = open("hello.txt",'r')
+
+# s = r.readline().rstrip()
+# print(s)
+# s = r.readline().rstrip()
+# print(s)
+# s = r.readline().rstrip()
+# print(s)
+
+# r.close()
+
