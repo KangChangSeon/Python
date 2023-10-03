@@ -41,13 +41,13 @@
 
 
 # #5.5
-# list1 = ['I like','I love']
-# list2 = ['pancakes','kiwi juice','espresso']
+list1 = ['I like','I love']
+list2 = ['pancakes','kiwi juice','espresso']
 
-# for i in list1:
-#     for j in list2:
-#         result = list1[list1.index(i)]+" "+list2[list2.index(j)]
-#         print(result)
+for i in list1:
+    for j in list2:
+        result = list1[list1.index(i)]+" "+list2[list2.index(j)]
+        print(result)
 
 # #5.7
 # # n_list = [10,20,30,50,60]
