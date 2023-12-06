@@ -13,7 +13,7 @@ def printStep(arr, val) :
     print(arr)
 
 
-data = [5,3,8,4,9,1,6,2,7]
+data = [8,3,4,9,7]
 print("Original  :", data)
 selection_sort(data)
 print("Selection :", data)
