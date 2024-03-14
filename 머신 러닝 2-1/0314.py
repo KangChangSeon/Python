@@ -24,7 +24,7 @@
 # x[2] = int(input('score 3 : '))
 # x[3] = int(input('score 4 : '))
 #
-# hap = x[0]+x[1]+x[2]+x[3]
+# hap = x[0] + x[1] + x[2] + x[3]
 #
 # print('result : ', hap)
 # #리스트 대괄호([ ]) 안에 서로 다른 자료형의 값을 콤마(,)로 구분해 하나 이상 저장할 수 있는 컬렉션 자료형
@@ -75,4 +75,3 @@
 # #차집합
 # print(x-y)
 # print(x.difference(y))
-
