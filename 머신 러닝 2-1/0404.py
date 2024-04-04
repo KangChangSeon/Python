@@ -1,4 +1,5 @@
 import numpy as np
+
 #
 # test_array = np.arange(1, 11)
 # print(test_array)
@@ -61,21 +62,22 @@ import numpy as np
 # print(v2)
 # print(np.concatenate((v1,v2),axis=1))
 
-x = np.arange(1, 7).reshape(2,3)
-print(x)
-print(x+x)
-print(x-x)
-print(x/x)
-print(x**x)
+# x = np.arange(1, 7).reshape(2,3)
+# print(x)
+# print(x+x)
+# print(x-x)
+# print(x/x)
+# print(x**x)
+#
+# x_1 = np.arange(1, 7).reshape(2,3)
+# x_2 = np.arange(1, 7).reshape(3,2)
+# print(x_1)
+# print(x_2)
+# print(x_1.dot(x_2))
+#
+# x = np.arange(1, 13).reshape(4,3)
+# y = np.arange(10, 40, 10)
+# print(x)
+# print(y)
+# print(x+y)
 
-x_1 = np.arange(1, 7).reshape(2,3)
-x_2 = np.arange(1, 7).reshape(3,2)
-print(x_1)
-print(x_2)
-print(x_1.dot(x_2))
-
-x = np.arange(1, 13).reshape(4,3)
-y = np.arange(10, 40, 10)
-print(x)
-print(y)
-print(x+y)
